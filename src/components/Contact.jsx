@@ -8,9 +8,9 @@ const Contact = () => {
       </span>
       <h2 className="text-3xl font-bold">Get in Touch</h2>
       {/* left right container */}
-      <div className="flex gap-5">
+      <div className="flex flex-col gap-5 md:flex-row">
         {/* left */}
-        <div className="mt-10 container-left w-[50%] ">
+        <div className="mt-10 container-left w-full md:w-[50%] ">
           <div className="flex flex-col justify-start gap-5 py-5">
             <h3 className="flex items-center justify-start gap-3 text-2xl font-bold">
               Send us a message{" "}
@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
         </div>
         {/* right */}
-        <div className="mt-10 container-right w-[50%]">
+        <div className="mt-10 container-right w-full md:w-[50%]">
           <form action="" className="flex flex-col gap-2 ">
             {/* name */}
             <div className="flex flex-col gap-2">
